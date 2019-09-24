@@ -12,7 +12,7 @@ import sys
 
 #--------------------------------------------------------------------------------------------------
 # EDIT THESE FOR YOUR SERVICES
-defaultUser = 'tchinchen@pagerduty.com'
+defaultUser = 'PagerDuty_account_email'
 serviceIDs = []
 
 #servicenamenames = ['eCommerce-frontend', 'eCommerce-search', 'eCommerce-payment']
