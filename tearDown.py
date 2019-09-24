@@ -12,8 +12,8 @@ import sys
 
 #--------------------------------------------------------------------------------------------------
 # EDIT THESE FOR YOUR SERVICES
-defaultUser = 'tchinchen@pagerduty.com'
-token = "M8EKhymNqYr8n6pi_Rfi"
+defaultUser = 'pagerduty_account_email'
+token = "token_here"
 # END: EDIT THESE FOR YOUR SERVICES
 #--------------------------------------------------------------------------------------------------
 
