@@ -15,7 +15,7 @@ import sys
 ##### >>> SERVICE DEFINITIONS ARE SET UP AFTER THE FUNCTION! <<< ####
 # Download Visual Studio code for a cleaner view of this code - https://code.visualstudio.com/download
 #--------------------------------------------------------------------------------------------------
-token = "21Vp9RMz-oE8RdrtUGHa"
+token = "Token_here"
 #Set up the default headers for your environment
 headers = {'Content-Type': 'application/json',   "Accept": "application/vnd.pagerduty+json;version=2", 'Authorization': "Token token=" + token}
 #--------------------------------------------------------------------------------------------------
@@ -191,7 +191,7 @@ def setUpService(servicenamenames, TeamName, EPName, teamName, headers):
 
 #--------------------------------------------------------------------------------------------------
 # EDIT THESE FOR YOUR SERVICES
-defaultUser = 'tchinchen@pagerduty.com'
+defaultUser = 'pagerduty_account_email'
 serviceIDs = []
 
 servicenamenames = ['eCommerce-frontend', 'eCommerce-search', 'eCommerce-payment']
