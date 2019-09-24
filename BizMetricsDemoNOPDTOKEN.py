@@ -11,7 +11,7 @@ import pytz
 
 while True:
 
-    r = requests.get('https://cloud.iexapis.com/stable/stock/pd/quote/latestPrice?token=sk_47d1e21e473f474c9647efbcdf14f88b')
+    r = requests.get('https://cloud.iexapis.com/stable/stock/pd/quote/latestPrice?token=xxxxx')
     sharePrice = float(r.content)
 
     now = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
